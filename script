@@ -1,0 +1,5 @@
+<powershell>  
+Install-WindowsFeature -name Web-Server -IncludeManagementTools  
+New-Item -Path C:\inetpub\wwwroot\index.html -ItemType File -Value "KTExperts is a knowledge Sharing Platform" -Force  
+</powershell>  
+https://github.com/25467/Arunjai/blob/main/README.md  
